@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+tom:
+  id: 1
+  first_name: Tom
+  last_name: Test
+  name: Tom Test
+  email: tom-test@test.com
+  encrypted_password: $2a$10$UKtpfY9EAr5.GVBwBUEIjeYCmkJ2BzPCNizh2UEz9ObMz1o/2v0.u
+  slug: tom-test
+  last_seen_at: <%= Time.now.utc.to_s(:db) %>
+  confirmed_at: <%= Time.now.utc.to_s(:db) %>
+  created_at: <%= Time.now.utc.to_s(:db) %>
+  updated_at: <%= Time.now.utc.to_s(:db) %>
+
+henry:
+  id: 3
+  first_name: Henry
+  last_name: Test
+  name: Henry Test
+  email: henry-test@test.com
+  encrypted_password: $2a$10$UKtpfY9EAr5.GVBwBUEIjeYCmkJ2BzPCNizh2UEz9ObMz1o/2v0.u
+  slug: henry-test
+  last_seen_at: <%= Time.now.utc.to_s(:db) %>
+  confirmed_at: <%= Time.now.utc.to_s(:db) %>
+  created_at: <%= Time.now.utc.to_s(:db) %>
+  updated_at: <%= Time.now.utc.to_s(:db) %>
